@@ -1,0 +1,67 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+class Transportation
+{
+  private:
+    int wheels;
+    string difficulty;
+    string title;
+    string colour;
+  public:
+    int getwheels()
+    {
+      return wheels;
+    }
+    string getdifficulty()
+    {
+      return difficulty;
+    }
+    string gettitle()
+    {
+      return title;
+    }
+    string getcolour()
+    {
+      return colour;
+    }
+    string setcolour(string c);
+    {
+      cout>>"What colour do you want your transportation?";
+      cin>>c;
+      c=colour;
+    }
+    
+};
+
+class features:private Transportation
+{
+  int handlebars;
+  handlebars=1;
+  wheels=2;
+  difficulty="Easy";
+  title="Bike";
+};
+
+class features:private Transportation
+{
+public:
+  int board;
+  board=1;
+  wheels=4;
+  difficulty="Medium";
+  title="Skateboard";
+  
+};
+
+int main()
+{
+  cout<<gettitle;
+  features f;
+  cout<<handlebars;
+  cout<<getwheels<<endl;
+  cout<<getdifficulty;
+  return 0;
+};
