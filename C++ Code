@@ -3,13 +3,13 @@
 using namespace std;
 
 
-class Transportation
+class Transportation //common features of a bike and a skateboard
 {
   private:
-    int wheels;
-    string difficulty;
-    string title;
-    string colour;
+    int wheels; //number of wheels on the transportation
+    string difficulty; //the difficulty of the transportation
+    string title; //the name of the transportation
+    string colour; //the colour the user wants for their transportation
   public:
     int getwheels()
     {
@@ -38,7 +38,7 @@ class Transportation
 
 class features:private Transportation
 {
-  int handlebars;
+  int handlebars; //the number of handlebars
   handlebars=1;
   wheels=2;
   difficulty="Easy";
@@ -48,7 +48,7 @@ class features:private Transportation
 class features:private Transportation
 {
 public:
-  int board;
+  int board; //the number of boards
   board=1;
   wheels=4;
   difficulty="Medium";
